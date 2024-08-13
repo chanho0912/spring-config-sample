@@ -1,0 +1,10 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+db:
+  url: http://blabla.com
+  username: username-changed
+  password: something
