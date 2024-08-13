@@ -5,5 +5,5 @@ spring:
       on-profile: mysql
 db:
   url: http://blabla.com
-  username: ccc
+  username: username-changed
   password: something
