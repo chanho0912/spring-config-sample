@@ -1,0 +1,9 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: mysql
+db:
+  url: http://blabla.com
+  username: ccc
+  password: something
