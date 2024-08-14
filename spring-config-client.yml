@@ -3,7 +3,6 @@ spring:
   config:
     activate:
       on-profile: local
-spring:
   datasource:
     url: '{cipher}encryptedData'
     username: '{cipher}encryptedUsername'
