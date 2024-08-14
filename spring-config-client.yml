@@ -3,8 +3,8 @@ spring:
   config:
     activate:
       on-profile: local
-
-db:
-  url: http://blabla.com
-  username: username-changed
-  password: something
+spring:
+  datasource:
+    url: '{cipher}encryptedData'
+    username: '{cipher}encryptedUsername'
+    password: '{cipher}encryptedPassword'
